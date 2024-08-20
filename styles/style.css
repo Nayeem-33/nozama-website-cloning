@@ -318,3 +318,104 @@ input:focus {
     font-size: 1.7rem;
     color: #0F1111;
 }
+
+
+.foot-btn {
+    background-color: #485769;
+    padding: 1rem 0;
+    margin: 0 auto;
+    
+}
+.foot-btn div{
+    width: 110rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+.foot-1 {
+    background-color: #232F3E;
+}
+.foot-1-div {
+    display: flex;
+    /* grid-template-columns: repeat(4, 1fr); */
+    justify-content: space-between;
+    width: 106rem;
+    margin: 0 auto;
+    padding: 4rem 0;
+}
+.foot1-head {
+    color: #ffffff;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+li {
+    list-style: none;
+    line-height: 2rem;
+    font-size: 1.2rem;
+    color: #DDDDDD;
+}
+
+
+.lang-cur-cou {
+    display: flex;
+    padding: 2rem 0;
+    gap: 2rem;
+    justify-content: center;
+}
+
+
+
+.foot-2 {
+    background-color: #131A22;
+}
+
+.foot-2-tile-grid {
+    width: 106rem;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1.5rem;
+    padding: 4rem 0;
+    margin: 0 auto;
+}
+
+.foot-pera {
+    font-size: 1.2rem;
+    color: #999999;
+}
+
+.foot-title {
+    color: #DDDDDD;
+}
+
+.foot-pera:hover  {
+    text-decoration: underline;
+}
+
+
+
+.foot-link-copy {
+    width: 106rem;
+    margin: 0 auto;
+    padding-bottom: 4rem;
+}
+.foot-links-div {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+.foot-link, .copy-text {
+    font-size: 1.2rem;
+    color: white;
+    text-align: center;
+}
